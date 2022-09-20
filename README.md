@@ -9,7 +9,7 @@ This example notebook is trying to replicate some of the results from the Strub 
 
 ```python
 import pickle
-with open("data/evt_results.pk", "rb") as file:
+with open("data/EURUSD_evt_results.pk", "rb") as file:
     results = pickle.load(file)
 ```
 
