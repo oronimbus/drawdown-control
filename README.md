@@ -3,7 +3,7 @@
 This example notebook is trying to replicate some of the results from the Strub (2021) paper on Drawdown Control. The results are purely hypothetic and should not be used for financial decision making.
 
 ## Usage
-- Make sure you install the following dependencies: `pip install numpy scipy pandas arch tqdm matplotlib yfinance`
+- Make sure you install the following dependencies: `pip install numpy scipy pandas arch tqdm matplotlib statsmodels yfinance`
 - Execute the `drawdown-control.ipynb` notebook from top to bottom
 - One step in the calculation takes a long time to execute (almost 2 hours), hence I've added a pickled dump of the data set which can be loaded by running:
 
